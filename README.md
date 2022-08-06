@@ -3,7 +3,7 @@ Worked through a Cypress framework as an alternative to rspec framework and the 
 
 
 # Instructions for running files from command line
-1. go to codespaces to ensure I don't have any build artifacts running that can get in the way of setup
+1. go to codespaces for whatever is the target service to ensure I don't have any build artifacts running that can get in the way of setup
 	*1.* https://github.com/codespaces
 2. Open codespace (in vscode desktop ; has best results)
 3. split terminal when it finishes building (into 3 terminals ; 1 for yarn start:ci ; 1 for cypress open ; 1 for coding/git pushing
@@ -14,5 +14,3 @@ Worked through a Cypress framework as an alternative to rspec framework and the 
 6. In the second terminal ; run $(npm bin)/cypress open
 7. Once successful ; your local host 4024 web browser page should show a the complenent (context json bit)
 	*1.* http://localhost:4204/
-
-
